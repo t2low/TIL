@@ -5,5 +5,6 @@
 `Array`変数の前に`*`をつけると渡すことができる
 
 ```kotlin
-
+val items: Array<Int> = ...
+val hoge = arrayOf(*items)
 ```
